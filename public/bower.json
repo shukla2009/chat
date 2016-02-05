@@ -1,0 +1,29 @@
+{
+  "name": "chat-server",
+  "homepage": "https://github.com/shukla2009/chat",
+  "authors": [
+    "Rahul Shukla <rahul.shukla@synerzip.com>"
+  ],
+  "description": "This is simple Chat server to demonstrate uses of Angular JS, PlayFramework 2.4.x , Websockets , Akka",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Angular",
+    "Play",
+    "2.4.x",
+    "Websockets",
+    "Akka"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0"
+  }
+}
