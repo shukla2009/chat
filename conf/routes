@@ -14,3 +14,4 @@ GET     /socket                     controllers.Chat.socket
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 GET     /webjars/*file              controllers.WebJarAssets.at(file)
 GET     /bower_components/*file     controllers.Assets.at(path="/public/bower_components", file)
+GET     /public/*file     controllers.Assets.at(path="/public", file)

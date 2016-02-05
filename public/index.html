@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat Server</title>
+    <link href="/public/app.css" rel="stylesheet">
+    <link href="/public/main/main.css" rel="stylesheet">
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body ng-app>
-{{1+2}}
+<div ng-include="'public/main/main.html'"></div>
 
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
